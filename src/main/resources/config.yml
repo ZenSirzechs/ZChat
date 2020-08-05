@@ -1,0 +1,44 @@
+Settings:
+  AsyncMode: true
+
+Chat:
+  FormattingEnabled: true
+  FormattingPerWorld: false
+  Channel: "GLOBAL"
+  Cooldown: 3
+  CooldownReply: "&cSlow down! You're too fast!"
+  ShowPrivateMessage: false
+  TextCensor:
+    Enabled: true
+    EnabledInPrivateMessage: true
+    CensoredTexts:
+      - "pocketmine"
+      - "pmmp"
+  TextBlocker:
+    Enabled: true
+    EnabledInPrivateMessage: true
+    Reply: "&cYOU ARE NOT ALLOWED TO SAY THAT HERE!"
+    BlockedTexts:
+      - "leet.cc"
+      - "pocket.pe"
+
+NameTag:
+  FormattingEnabled: true
+  FormattingPerWorld: false
+  UpdateInterval: 20
+
+WelcomeMessage:
+  Enabled: true
+  Message: "&bZChat: %n%&r Thank you for using ZChat"
+
+JoinMessage:
+  FormattingEnabled: true
+  Method: "CHAT"
+
+QuitMessage:
+  FormattingEnabled: true
+  Method: "CHAT"
+
+DeathMessage:
+  FormattingEnabled: true
+  Method: "CHAT"
